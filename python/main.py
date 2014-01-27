@@ -59,3 +59,4 @@ try:
 
 finally:
 	brew.stop()
+	GPIO.cleanup()
